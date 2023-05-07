@@ -1,0 +1,55 @@
+ssh -p 2220 bandit12@bandit.labs.overthewire.org
+
+ls
+
+mkdir /tmp/pc
+
+mv data.txt myfile.txt
+
+ls
+
+file myfile.txt
+
+xxd -r myfile.txt > myfile1.bin
+
+ls
+
+file myfile1.bin
+
+zcat myfile1.bin > myfile2
+
+ls
+
+file myfile2
+
+bzcat myfile2 > myfile3
+
+file myfile3
+
+zcat myfile3 > myfile4
+
+file myfile4
+
+tar -xvf myfile4
+
+file data5.bin
+
+tar -xvf data5.bin
+
+file data6.bin
+
+bzcat data6.bin > myfile7
+
+file myfile7
+
+tar -xvf myfile7
+
+file data8.bin
+
+zcat data8.bin > myfile9
+
+file myfile9
+
+cat myfile9
+
+mdp=wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw

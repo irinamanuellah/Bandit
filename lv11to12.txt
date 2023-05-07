@@ -1,0 +1,7 @@
+ssh -p 2220 bandit11@bandit.labs.overthewire.org
+
+tr 'A-Za-z' 'N-ZA-Mn-za-m' < data.txt
+
+mdp=JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+
+exit

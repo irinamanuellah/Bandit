@@ -1,0 +1,11 @@
+ssh -p 2220 bandit2@bandit.labs.overthewire.org
+
+ls -1
+
+cat spaces in this filename
+
+cat "spaces in this filename"
+
+mdp=aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+
+exit

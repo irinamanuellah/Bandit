@@ -1,0 +1,11 @@
+ssh -p 2220 bandit4@bandit.labs.overthewire.org
+
+ls -1 inhere/cat inhere/-file00
+
+file inhere/*
+
+cat inhere/-file07
+
+mdp=lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+
+exit

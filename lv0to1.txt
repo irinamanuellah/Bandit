@@ -1,0 +1,9 @@
+ssh -p 2220 bandit0@bandit.labs.overthewire.org
+
+ls 
+
+find . -name readme
+
+mdp=NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+
+exit

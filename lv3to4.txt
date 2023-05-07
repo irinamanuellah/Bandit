@@ -1,0 +1,9 @@
+ssh -p 2220 bandit3@bandit.labs.overthewire.org
+
+ls inhere/
+
+ls -a inhere/
+
+cat inhere/.hidden
+
+mdp=2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe

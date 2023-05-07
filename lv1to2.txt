@@ -1,0 +1,10 @@
+ssh -p 2220 bandit1@bandit.labs.overthewire.org
+
+ls -l 
+
+cat /home/bandit1/-
+
+mdp=rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+
+
+exit
