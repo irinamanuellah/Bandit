@@ -1,0 +1,7 @@
+ssh -p 2220 bandit15@bandit.labs.overthewire.org
+
+openssl s_client -connect localhost:30001 -quiet < /etc/bandit_pass/bandit15
+
+mdp=JQttfApK4SeyHwDlI9SXGR50qclOAil1
+
+exit
