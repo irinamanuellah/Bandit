@@ -1,0 +1,17 @@
+ssh -p 2220 bandit25@bandit.labs.overthewire.org
+
+ls
+
+cat /etc/passwd
+
+cat/usr/bin/showtext
+
+more .bashrc
+
+ssh bandit26@localhost -i bandit26.sshkey
+
+whoami
+
+cat /etc/bandit_pass/bandit26
+
+mdp=5czgVV9L3Xx8JPOYRbXh6lQbmIOWvPT6z

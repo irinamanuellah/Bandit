@@ -1,0 +1,5 @@
+ssh -p 2220 bandit18@bandit.labs.overthewire.org
+
+ssh -p 2220 bandit18@bandit.labs.overthewire.org cat readme
+
+mdp=kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd

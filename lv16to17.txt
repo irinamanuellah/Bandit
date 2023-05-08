@@ -1,0 +1,23 @@
+ssh -p 2220 bandit16@bandit.labs.overthewire.org
+
+nmap -sV -T4 -p 31000-32000 localhost
+
+cat /etc/bandit_pass/bandit16
+
+mdp= cluFn7wTiGryunymYOu4RcffSxQluehd
+
+mkdir /tmp/random_sshkey
+
+cd /tmp/random_sshkey
+
+touch private.key
+
+vim clé privée.
+
+chmod 400 private.key
+
+ls -l 
+
+ssh -i private.key 
+
+now=we are connected to bandit17

